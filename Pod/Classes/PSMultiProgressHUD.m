@@ -33,11 +33,11 @@ static BOOL gMultiProgressHUDShowing = NO;
     
     if ([[self class] internalType] == PSMultiProgressHUD_MB)
     {
-        [MBProgressHUD showHUDAddedTo:[UIWindow PSbaseWindow] animated:YES];
+        [MBProgressHUD showHUDAddedTo:[UIWindow PSBaseWindow] animated:YES];
     }
     else if ([[self class] internalType] == PSMultiProgressHUD_MR)
     {
-        [MRProgressOverlayView showOverlayAddedTo:[UIWindow PSbaseWindow]
+        [MRProgressOverlayView showOverlayAddedTo:[UIWindow PSBaseWindow]
                                             title:@""
                                              mode:MRProgressOverlayViewModeIndeterminate
                                          animated:YES];
@@ -60,11 +60,11 @@ static BOOL gMultiProgressHUDShowing = NO;
     
     if ([[self class] internalType] == PSMultiProgressHUD_MB)
     {
-        [MBProgressHUD hideHUDForView:[UIWindow PSbaseWindow] animated:YES];
+        [MBProgressHUD hideHUDForView:[UIWindow PSBaseWindow] animated:YES];
     }
     else if ([[self class] internalType] == PSMultiProgressHUD_MR)
     {
-        [MRProgressOverlayView dismissOverlayForView:[UIWindow PSbaseWindow] animated:YES];
+        [MRProgressOverlayView dismissOverlayForView:[UIWindow PSBaseWindow] animated:YES];
     }
     else if ([[self class] internalType] == PSMultiProgressHUD_SV)
     {

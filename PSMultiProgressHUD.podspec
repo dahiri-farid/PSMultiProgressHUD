@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "PSMultiProgressHUD"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "PSMultiProgressHUD - combines multiple HUBs and lets you choose which one to show."
   s.description      = "* PSMultiProgressHUD allows to choose which of the well known github's progress HUDs to show."
   s.homepage         = "https://github.com/dahiri-farid/PSMultiProgressHUD"
