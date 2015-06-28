@@ -1,0 +1,14 @@
+PODS:
+  - PSMultiProgressHUD (0.1.0)
+
+DEPENDENCIES:
+  - PSMultiProgressHUD (from `../`)
+
+EXTERNAL SOURCES:
+  PSMultiProgressHUD:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PSMultiProgressHUD: d648a82b4cf91b9b334378bf6b849fa73941aee3
+
+COCOAPODS: 0.37.2

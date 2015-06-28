@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_PSMultiProgressHUD_Tests_PSMultiProgressHUD : NSObject
+@end
+@implementation PodsDummy_Pods_PSMultiProgressHUD_Tests_PSMultiProgressHUD
+@end

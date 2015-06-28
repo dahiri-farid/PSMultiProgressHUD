@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47799E4C1B40984300018F35 /* PSMultiProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 47799E4B1B40984300018F35 /* PSMultiProgressHUD.m */; };
+		47799E4F1B40987400018F35 /* UIWindow+PSBaseWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 47799E4E1B40987400018F35 /* UIWindow+PSBaseWindow.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,9 +40,13 @@
 /* Begin PBXFileReference section */
 		19FDB3355AEDBD46DD1CE7E3 /* PSMultiProgressHUD.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PSMultiProgressHUD.podspec; path = ../PSMultiProgressHUD.podspec; sourceTree = "<group>"; };
 		3048BAA55ECF55129427A579 /* Pods_PSMultiProgressHUD_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSMultiProgressHUD_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47799E4A1B40984300018F35 /* PSMultiProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSMultiProgressHUD.h; sourceTree = "<group>"; };
+		47799E4B1B40984300018F35 /* PSMultiProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSMultiProgressHUD.m; sourceTree = "<group>"; };
+		47799E4D1B40987400018F35 /* UIWindow+PSBaseWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+PSBaseWindow.h"; sourceTree = "<group>"; };
+		47799E4E1B40987400018F35 /* UIWindow+PSBaseWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+PSBaseWindow.m"; sourceTree = "<group>"; };
 		55A9718745367E8516FDA75A /* Pods_PSMultiProgressHUD_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSMultiProgressHUD_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E08FE1A292E15093F135046 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* PSMultiProgressHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = PSMultiProgressHUD.app; path = PSMultiProgressHUD_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* PSMultiProgressHUD_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSMultiProgressHUD_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -53,7 +59,7 @@
 		6003F5A5195388D20070C39A /* PSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* PSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = PSMultiProgressHUD_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* PSMultiProgressHUD_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PSMultiProgressHUD_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -93,9 +99,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47799E411B40980000018F35 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				47799E421B40980000018F35 /* Assets */,
+				47799E441B40980000018F35 /* Classes */,
+			);
+			name = Pod;
+			path = ../Pod;
+			sourceTree = "<group>";
+		};
+		47799E421B40980000018F35 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		47799E441B40980000018F35 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				47799E4A1B40984300018F35 /* PSMultiProgressHUD.h */,
+				47799E4B1B40984300018F35 /* PSMultiProgressHUD.m */,
+				47799E4D1B40987400018F35 /* UIWindow+PSBaseWindow.h */,
+				47799E4E1B40987400018F35 /* UIWindow+PSBaseWindow.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				47799E411B40980000018F35 /* Pod */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for PSMultiProgressHUD */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -108,8 +143,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* PSMultiProgressHUD.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F58A195388D20070C39A /* PSMultiProgressHUD_Example.app */,
+				6003F5AE195388D20070C39A /* PSMultiProgressHUD_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -213,7 +248,7 @@
 			);
 			name = PSMultiProgressHUD_Example;
 			productName = PSMultiProgressHUD;
-			productReference = 6003F58A195388D20070C39A /* PSMultiProgressHUD.app */;
+			productReference = 6003F58A195388D20070C39A /* PSMultiProgressHUD_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* PSMultiProgressHUD_Tests */ = {
@@ -234,7 +269,7 @@
 			);
 			name = PSMultiProgressHUD_Tests;
 			productName = PSMultiProgressHUDTests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* PSMultiProgressHUD_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -391,8 +426,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* PSAppDelegate.m in Sources */,
+				47799E4F1B40987400018F35 /* UIWindow+PSBaseWindow.m in Sources */,
 				6003F5A7195388D20070C39A /* PSViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				47799E4C1B40984300018F35 /* PSMultiProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

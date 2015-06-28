@@ -1,0 +1,6 @@
+framework module PSMultiProgressHUD {
+  umbrella header "Pods-PSMultiProgressHUD_Tests-PSMultiProgressHUD-umbrella.h"
+
+  export *
+  module * { export * }
+}
