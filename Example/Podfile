@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'PSMultiProgressHUD_Example', :exclusive => true do
+  pod "PSMultiProgressHUD", :path => "../"
+end
+
+target 'PSMultiProgressHUD_Tests', :exclusive => true do
+  pod "PSMultiProgressHUD", :path => "../"
+
+  
+end
